@@ -184,7 +184,54 @@
                     en: "I am having breakfast with egg"
                 },{
                     np: "'itúuki Caan himéeytipse",
-                    en: "What did Jon eat for breakfast"
+                    en: "What is Jon having for breakfast"
+                },{
+                    np: "Caan himéeytipse síiski",
+                    en: "Jon is having breakfast with gravy/mush/stew"
+                },{
+                    np: "'itúuki 'ee halx̣patípsa",
+                    en: "What are you having for lunch"
+                },{
+                    np: "halx̣patípsa cepéepyux̣ti'ski",
+                    en: "I am having lunch with sandwich"
+                },{
+                    np: "'itúuki Méeli hahalx̣patípsa",
+                    en: "What is Mary having for lunch"
+                },{
+                    np: "Méeli hahalx̣patípsa maymáyki",
+                    en: "Mary is having lunch with hot dog"
+                },{
+                    np: "'itúuki 'ee kulewíitipse",
+                    en: "What are you having for dinner"
+                },{
+                    np: "kulewíitipse cuy'éemki",
+                    en: "I am having dinner with fish"
+                },{
+                    np: "'itúuki Seem hikulewíitipse",
+                    en: "What is Sam having for dinner"
+                },{
+                    np: "Seem hikulewíitipse nukt kaa lapatáatki",
+                    en: "Sam is having dinner with meat and potato"
+                },{
+                    np: "'éy'sce",
+                    en: "I am happy"
+                },{
+                    np: "Séemi he'éy'sce",
+                    en: "Sammy is happy"
+                },{
+                    np: "taaqc híiwes halx̣pawit'áasx",
+                    en: "Today is Saturday"
+                },{
+                    np: "píke haaníisa méeytipt",
+                    en: "Mother is making breakfast"
+                },{
+                    np: "pist hi'nikíse t'ayct'ayc hipinwéespe",
+                    en: "Father is putting plate on the table"
+                },{
+                    np: "mamáy'ac Tóninm hinéesmuce mamáy'asna, \"mamáy'ac! waaqitx! wáaqo kíye méeytipsix!",
+                    en: "Tony is calling the children, \"Children! Wake up! Now we are having breakfast!"
+                },{
+                    np: ""
                 }
             ]
         },
@@ -215,7 +262,6 @@
         // updates the question display
         updateQuestionDisplay: function() {
 
-            console.log('Displaying first question.');
             quiz.questionDisplay.innerText = quiz.questions.chapter6[quiz.currentQuestionCounter].np;
 
         },
@@ -301,7 +347,7 @@
             } else {
 
                 console.log('Incorrect!');
-                console.log('Current question is ' + quiz.currentQuestionCounter);
+                console.log('quiz.currentQuestionCounter is now ' + quiz.currentQuestionCounter);
                 quiz.updateAnswerDisplay(quiz.currentQuestionCounter);
 
             }
@@ -322,12 +368,16 @@
     // passes the quiz object to the window for debug purposes
     // window.quiz = quiz;
     // focus the user input on initial load
+    console.log('Setting input focus');
     quiz.userAnswerDisplay.focus();
     // shuffle our questions on initial load
+    console.log('Shuffling questions');
     quiz.shuffleArray(quiz.questions.chapter6);
     // calls our method from the quiz object and pushes our first question to the page on initial load
+    console.log('Displaying first question.');
     quiz.updateQuestionDisplay();
     // updates our question # of # display with the correct information on initial load
+    console.log('Updating question count display');
     quiz.updateQuestionCountDisplay();
     // updates our chapter # display currently not working
     // quiz.updateChapterDisplay();

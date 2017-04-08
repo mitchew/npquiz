@@ -23,7 +23,7 @@ body {
   font-size: 1.6em;
   font-weight: 300;
   letter-spacing: .01em;
-  line-height: 1.6;
+  line-height: 1;
 }
 
 blockquote {
@@ -272,7 +272,7 @@ input[type='radio'] {
 .container {
   margin: 0 auto;
   max-width: 112.0rem;
-  padding: 0 2.0rem;
+  padding: 0 .3rem;
   position: relative;
   width: 100%;
 }
@@ -549,8 +549,8 @@ h6 {
 }
 
 h1 {
-  font-size: 4.6rem;
-  line-height: 1.2;
+  font-size: 3rem;
+  line-height: 1.4;
 }
 
 h2 {
@@ -599,4 +599,14 @@ img {
   float: right;
 }
 
-/*# sourceMappingURL=milligram.css.map */
+/* my custom styles */
+.quiz-header {
+  font-size: 3rem;
+}
+.quiz-display-title {
+  font-weight: bold;
+  line-height: 1.2;
+}
+.quiz-display-item {
+  line-height: 1.2;
+}

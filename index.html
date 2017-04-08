@@ -8,24 +8,23 @@
 </head>
 <body>
 <div class="container">
-
-</div>
-<div class="row">
-    <div class="column">
-        <h1>Niimiipuutímt quiz</h1>
-        <h1 id="question"></h1>
-        <h2 id="correct-answer" class="small-12 columns"></h2>
-        <h3 id="question-counter"></h3>
-        <h4 id="chapter">Chapter 6</h4>
+    <div class="row">
+        <div class="column">
+            <h1 class="quiz-header">Niimiipuutímt quiz</h1>
+            <p><span class="quiz-display-title">Niimiipuutímt</span>: <span id="question" class="quiz-display-item"></span></p>
+            <p><span class="quiz-display-title">English</span>: <span id="correct-answer" class="quiz-display-item"></span></p>
+            <p id="question-counter" class="quiz-display-item"></p>
+            <p id="chapter" class="quiz-display-item">Chapter 6</p>
+        </div>
     </div>
-</div>
-<label for="user-answer">
-    <input type="text" name="answer" id="user-answer">
-</label>
-<button id="submit" class="button button-outline">Check Answer</button>
-<div class="row">
-    <div id="answers" class="column">
+    <label for="user-answer">
+        <input type="text" name="answer" id="user-answer" autocomplete="off" placeholder="Your answer here">
+    </label>
+    <button id="submit" class="button button-outline">Check Answer</button>
+    <div class="row">
+        <div id="answers" class="column">
 
+        </div>
     </div>
 </div>
 <script src="js/quiz.js"></script>
