@@ -22,222 +22,220 @@
         submit: document.getElementById('submit'),
         // where the questions will reside as an object
         questions: {
-            chapter6: [
-                {
-                    np: "capaq'oynay'í",
-                    en: "pancake"
-                }, {
-                    np: "capaq'oynay'íiki",
-                    en: "with pancake"
-                }, {
-                    np: "qáhas",
-                    en: "milk"
-                }, {
-                    np: "qáhaski",
-                    en: "with milk"
-                },{
-                    np: "qahasnim wéy'ikt",
-                    en: "butter"
-                },{
-                    np: "qahasnim wéy'iktki",
-                    en: "with butter"
-                },{
-                    np: "lalx",
-                    en: "coffee"
-                },{
-                    np: "laláxki",
-                    en: "with coffee"
-                },{
-                    np: "písqu",
-                    en: "tea"
-                },{
-                    np: "pisqúuki",
-                    en: "with tea"
-                },{
-                    np: "temisquywéeku's",
-                    en: "syrup"
-                },{
-                    np: "temisquywéeku'ski",
-                    en: "with syrup"
-                },{
-                    np: "táam'am",
-                    en: "egg"
-                },{
-                    np: "táam'amki",
-                    en: "with egg"
-                },{
-                    np: "lapatáat",
-                    en: "potato"
-                },{
-                    np: "lapatáatki",
-                    en: "with potato"
-                },{
-                    np: "máymay",
-                    en: "hot dog"
-                },{
-                    np: "maymáyki",
-                    en: "with hot dog"
-                },{
-                    np: "'óykala híiwes siis",
-                    en: "all is gravy/mush/stew"
-                },{
-                    np: "'óykala híiwes 'iyéqt",
-                    en: "all is broth/juice"
-                },{
-                    np: "kii híiwes mímqasnim 'iyéqt",
-                    en: "this is orange juice"
-                },{
-                    np: "k'usmise",
-                    en: "I am frying"
-                },{
-                    np: "k'úsmise táam'am",
-                    en: "I am frying egg"
-                },{
-                    np: "yeqikéecese",
-                    en: "I am pouring"
-                },{
-                    np: "yeqikéecese lalx",
-                    en: "I am pouring coffee"
-                },{
-                    np: "síiwise",
-                    en: "I am spreading"
-                },{
-                    np: "síiwise 'ipéex̣ qahásnim wé'iktki",
-                    en: "I am spreading bread with butter"
-                },{
-                    np: "haníisa",
-                    en: "I am making"
-                },{
-                    np: "haníisa hipt.",
-                    en: "I am making food"
-                },{
-                    np: "heyéeqce",
-                    en: "I am hungry"
-                },{
-                    np: "'iníise",
-                    en: "I am giving"
-                },{
-                    np: "hipt",
-                    en: "food"
-                },{
-                    np: "hipíse",
-                    en: "I am eating"
-                },{
-                    np: "'itúu 'ee hipíse",
-                    en: "What are you eating"
-                },{
-                    np: "hipíse 'ipéex",
-                    en: "I am eating bread"
-                },{
-                    np: "'itúu Caan hiipíse",
-                    en: "What is Jon eating"
-                },{
-                    np: "Caan hiipíse táam'am",
-                    en: "Jon is eating egg"
-                },{
-                    np: "'itúu 'eetx hipsíix",
-                    en: "What are they eating"
-                },{
-                    np: "nuun hipsíix máymay",
-                    en: "We (exclusive) are eating hot dog"
-                },{
-                    np: "'itúu hahácwal hiipsíix",
-                    en: "What are the boys eating"
-                },{
-                    np: "hahácwal hiipsíix siis",
-                    en: "The boys are eating soup"
-                },{
-                    np: "tewqiséeqce",
-                    en: "I am yawning"
-                },{
-                    np: "Caan hitewqiséeqce",
-                    en: "Jon is yawning"
-                },{
-                    np: "méeytipt",
-                    en: "breakfast"
-                },{
-                    np: "méeytipse",
-                    en: "I am having breakfast"
-                },{
-                    np: "hálx̣patipt",
-                    en: "lunch"
-                },{
-                    np: "halx̣patípsa",
-                    en: "I am having lunch"
-                },{
-                    np: "kulewíitipt",
-                    en: "Dinner"
-                },{
-                    np: "nex̣ce'éce hikulewíitipsix hipinwéespe",
-                    en: "Family is eating dinner at the table"
-                },{
-                    np: "'inikíse",
-                    en: "I am putting"
-                },{
-                    np: "Toni hi'nikíse t'ayct'ác hipinwéespe",
-                    en: "Tony is putting the plate on the table"
-                },{
-                    np: "'itúuki 'ee méeytipse",
-                    en: "What are you having for breakfast"
-                },{
-                    np: "méeytipse tam'áamki",
-                    en: "I am having breakfast with egg"
-                },{
-                    np: "'itúuki Caan himéeytipse",
-                    en: "What is Jon having for breakfast"
-                },{
-                    np: "Caan himéeytipse síiski",
-                    en: "Jon is having breakfast with gravy/mush/stew"
-                },{
-                    np: "'itúuki 'ee halx̣patípsa",
-                    en: "What are you having for lunch"
-                },{
-                    np: "halx̣patípsa cepéepyux̣ti'ski",
-                    en: "I am having lunch with sandwich"
-                },{
-                    np: "'itúuki Méeli hahalx̣patípsa",
-                    en: "What is Mary having for lunch"
-                },{
-                    np: "Méeli hahalx̣patípsa maymáyki",
-                    en: "Mary is having lunch with hot dog"
-                },{
-                    np: "'itúuki 'ee kulewíitipse",
-                    en: "What are you having for dinner"
-                },{
-                    np: "kulewíitipse cuy'éemki",
-                    en: "I am having dinner with fish"
-                },{
-                    np: "'itúuki Seem hikulewíitipse",
-                    en: "What is Sam having for dinner"
-                },{
-                    np: "Seem hikulewíitipse nukt kaa lapatáatki",
-                    en: "Sam is having dinner with meat and potato"
-                },{
-                    np: "'éy'sce",
-                    en: "I am happy"
-                },{
-                    np: "Séemi he'éy'sce",
-                    en: "Sammy is happy"
-                },{
-                    np: "taaqc híiwes halx̣pawit'áasx",
-                    en: "Today is Saturday"
-                },{
-                    np: "píke haaníisa méeytipt",
-                    en: "Mother is making breakfast"
-                },{
-                    np: "pist hi'nikíse t'ayct'ayc hipinwéespe",
-                    en: "Father is putting plate on the table"
-                },{
-                    np: "mamáy'ac Tóninm hinéesmuce mamáy'asna, \"mamáy'ac! waaqitx! wáaqo kíye méeytipsix!",
-                    en: "Tony is calling the children, \"Children! Wake up! Now we are having breakfast!"
-                },{
-                    np: ""
-                }
-            ]
+            chapter6: [{
+                np: "capaq'oynay'í",
+                en: "pancake"
+            }, {
+                np: "capaq'oynay'íiki",
+                en: "with pancake"
+            }, {
+                np: "qáhas",
+                en: "milk"
+            }, {
+                np: "qáhaski",
+                en: "with milk"
+            }, {
+                np: "qahasnim wéy'ikt",
+                en: "butter"
+            }, {
+                np: "qahasnim wéy'iktki",
+                en: "with butter"
+            }, {
+                np: "lalx",
+                en: "coffee"
+            }, {
+                np: "laláxki",
+                en: "with coffee"
+            }, {
+                np: "písqu",
+                en: "tea"
+            }, {
+                np: "pisqúuki",
+                en: "with tea"
+            }, {
+                np: "temisquywéeku's",
+                en: "syrup"
+            }, {
+                np: "temisquywéeku'ski",
+                en: "with syrup"
+            }, {
+                np: "táam'am",
+                en: "egg"
+            }, {
+                np: "táam'amki",
+                en: "with egg"
+            }, {
+                np: "lapatáat",
+                en: "potato"
+            }, {
+                np: "lapatáatki",
+                en: "with potato"
+            }, {
+                np: "máymay",
+                en: "hot dog"
+            }, {
+                np: "maymáyki",
+                en: "with hot dog"
+            }, {
+                np: "'óykala híiwes siis",
+                en: "all is gravy/mush/stew"
+            }, {
+                np: "'óykala híiwes 'iyéqt",
+                en: "all is broth/juice"
+            }, {
+                np: "kii híiwes mímqasnim 'iyéqt",
+                en: "this is orange juice"
+            }, {
+                np: "k'usmise",
+                en: "I am frying"
+            }, {
+                np: "k'úsmise táam'am",
+                en: "I am frying egg"
+            }, {
+                np: "yeqikéecese",
+                en: "I am pouring"
+            }, {
+                np: "yeqikéecese lalx",
+                en: "I am pouring coffee"
+            }, {
+                np: "síiwise",
+                en: "I am spreading"
+            }, {
+                np: "síiwise 'ipéex̣ qahásnim wé'iktki",
+                en: "I am spreading bread with butter"
+            }, {
+                np: "haníisa",
+                en: "I am making"
+            }, {
+                np: "haníisa hipt.",
+                en: "I am making food"
+            }, {
+                np: "heyéeqce",
+                en: "I am hungry"
+            }, {
+                np: "'iníise",
+                en: "I am giving"
+            }, {
+                np: "hipt",
+                en: "food"
+            }, {
+                np: "hipíse",
+                en: "I am eating"
+            }, {
+                np: "'itúu 'ee hipíse",
+                en: "What are you eating"
+            }, {
+                np: "hipíse 'ipéex",
+                en: "I am eating bread"
+            }, {
+                np: "'itúu Caan hiipíse",
+                en: "What is Jon eating"
+            }, {
+                np: "Caan hiipíse táam'am",
+                en: "Jon is eating egg"
+            }, {
+                np: "'itúu 'eetx hipsíix",
+                en: "What are they eating"
+            }, {
+                np: "nuun hipsíix máymay",
+                en: "We (exclusive) are eating hot dog"
+            }, {
+                np: "'itúu hahácwal hiipsíix",
+                en: "What are the boys eating"
+            }, {
+                np: "hahácwal hiipsíix siis",
+                en: "The boys are eating soup"
+            }, {
+                np: "tewqiséeqce",
+                en: "I am yawning"
+            }, {
+                np: "Caan hitewqiséeqce",
+                en: "Jon is yawning"
+            }, {
+                np: "méeytipt",
+                en: "breakfast"
+            }, {
+                np: "méeytipse",
+                en: "I am having breakfast"
+            }, {
+                np: "hálx̣patipt",
+                en: "lunch"
+            }, {
+                np: "halx̣patípsa",
+                en: "I am having lunch"
+            }, {
+                np: "kulewíitipt",
+                en: "Dinner"
+            }, {
+                np: "nex̣ce'éce hikulewíitipsix hipinwéespe",
+                en: "Family is eating dinner at the table"
+            }, {
+                np: "'inikíse",
+                en: "I am putting"
+            }, {
+                np: "Toni hi'nikíse t'ayct'ác hipinwéespe",
+                en: "Tony is putting the plate on the table"
+            }, {
+                np: "'itúuki 'ee méeytipse",
+                en: "What are you having for breakfast"
+            }, {
+                np: "méeytipse tam'áamki",
+                en: "I am having breakfast with egg"
+            }, {
+                np: "'itúuki Caan himéeytipse",
+                en: "What is Jon having for breakfast"
+            }, {
+                np: "Caan himéeytipse síiski",
+                en: "Jon is having breakfast with gravy/mush/stew"
+            }, {
+                np: "'itúuki 'ee halx̣patípsa",
+                en: "What are you having for lunch"
+            }, {
+                np: "halx̣patípsa cepéepyux̣ti'ski",
+                en: "I am having lunch with sandwich"
+            }, {
+                np: "'itúuki Méeli hahalx̣patípsa",
+                en: "What is Mary having for lunch"
+            }, {
+                np: "Méeli hahalx̣patípsa maymáyki",
+                en: "Mary is having lunch with hot dog"
+            }, {
+                np: "'itúuki 'ee kulewíitipse",
+                en: "What are you having for dinner"
+            }, {
+                np: "kulewíitipse cuy'éemki",
+                en: "I am having dinner with fish"
+            }, {
+                np: "'itúuki Seem hikulewíitipse",
+                en: "What is Sam having for dinner"
+            }, {
+                np: "Seem hikulewíitipse nukt kaa lapatáatki",
+                en: "Sam is having dinner with meat and potato"
+            }, {
+                np: "'éy'sce",
+                en: "I am happy"
+            }, {
+                np: "Séemi he'éy'sce",
+                en: "Sammy is happy"
+            }, {
+                np: "taaqc híiwes halx̣pawit'áasx",
+                en: "Today is Saturday"
+            }, {
+                np: "píke haaníisa méeytipt",
+                en: "Mother is making breakfast"
+            }, {
+                np: "pist hi'nikíse t'ayct'ayc hipinwéespe",
+                en: "Father is putting plate on the table"
+            }, {
+                np: "mamáy'ac Tóninm hinéesmuce mamáy'asna, \"mamáy'ac! waaqitx! wáaqo kíye méeytipsix!",
+                en: "Tony is calling the children, \"Children! Wake up! Now we are having breakfast!"
+            }, {
+                np: ""
+            }]
         },
 
         // http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-        shuffleArray: function(array) {
+        shuffleArray: function (array) {
 
             var currentIndex = array.length;
             var temporaryValue;
@@ -260,14 +258,14 @@
         },
 
         // updates the question display
-        updateQuestionDisplay: function() {
+        updateQuestionDisplay: function () {
 
             quiz.questionDisplay.innerText = quiz.questions.chapter6[quiz.currentQuestionCounter].np;
 
         },
 
         // this will count the number of questions in our array and display it as 'question # of #'
-        updateQuestionCountDisplay: function() {
+        updateQuestionCountDisplay: function () {
 
             var currentQuestionNumber = quiz.currentQuestionCounter + 1;
             // for storing the number of questions in the lesson
@@ -284,22 +282,22 @@
         },
 
         // this will put the correct answer on the page
-        updateAnswerDisplay: function(question) {
+        updateAnswerDisplay: function (question) {
 
             var correctAnswer = quiz.questions.chapter6[question].en;
-            console.log('Displaying correct answer. '+ correctAnswer);
+            console.log('Displaying correct answer. ' + correctAnswer);
             quiz.correctAnswerDisplay.innerText = correctAnswer;
 
         },
 
         // this will update which chapter we are currently studying
-        updateChapterDisplay: function(chapter) {
+        updateChapterDisplay: function (chapter) {
 
             quiz.chapterDisplay.innerHTML = chapter;
         },
 
         // this will check if the answer is correct and do stuff
-        checkAnswer: function() {
+        checkAnswer: function () {
 
             // get the current questions correct answer
             var correctAnswer = quiz.questions.chapter6[quiz.currentQuestionCounter].en;
@@ -325,7 +323,7 @@
             if (quiz.userAnswerDisplay.value.toLowerCase() === correctAnswer.toLowerCase()) {
 
                 // increment correct question variable
-                quiz.correctQuestions = quiz.correctQuestions +1;
+                quiz.correctQuestions = quiz.correctQuestions + 1;
                 // reset user input value to ''
                 quiz.userAnswerDisplay.value = '';
                 // reset the correct answer if it is showing
@@ -343,7 +341,7 @@
                 // put the cursor back on the user input
                 quiz.userAnswerDisplay.focus();
 
-            // if the answer is wrong the else will do stuff
+                // if the answer is wrong the else will do stuff
             } else {
 
                 console.log('Incorrect!');
@@ -354,9 +352,9 @@
         },
 
         // http://stackoverflow.com/questions/25262300/javascript-function-after-pressing-enter-key-on-text-box
-        watchKeyboard: function(event) {
+        watchKeyboard: function (event) {
 
-            if(event.keyCode === 13) {
+            if (event.keyCode === 13) {
 
                 quiz.checkAnswer();
 
